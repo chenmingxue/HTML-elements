@@ -3,3 +3,36 @@ The often used elements
 
 // part 1
 <h1>some title..</h1>,  <h2>, <p></p>
+
+//Use CSS Selectors to Style Elements 
+  <h2 style="color: blue">TitleName</h2> //not in CSS
+-------------
+  //in html
+  <style>
+    h2 {color: blue;}
+  </style>
+----------------
+// in CSS
+  h2 {
+  color: blue;
+  }
+  
+  //name a class and set in CSS
+   .red-text {
+    font-family: Helvetica, Sans-Serif;  // if first not work, go second one
+    font-size:16px;
+    color: red;
+  }
+  //import google font
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  
+// image
+<img class="imgclass .thick-green-border" src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up. ">
+  // in css
+  .imgclass{width:100px;}
+  .thick-green-border{
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    
+  }
