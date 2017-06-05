@@ -22,6 +22,7 @@ The often used elements
     font-family: Helvetica, Sans-Serif;  // if first not work, go second one
     font-size:16px;
     color: red;
+    background-color: silver;
   }
   //import google font
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -49,3 +50,7 @@ The often used elements
   <input type="text" placeholder="write something" required> // required is optional
   <button type="submit">submit</button>
 </form>  
+//radio,checkbox button
+  <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+  <label><input type="checkbox" name="personality"> some</label>
+
