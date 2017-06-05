@@ -34,5 +34,18 @@ The often used elements
     border-color: green;
     border-width: 10px;
     border-style: solid;
-    
+    border-radius:10px;  // or try 50% 
   }
+  //link
+  <p>Here are <a href="#">cat photos<img src="" alt=""></a><p>
+  //list: ul, ol
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  // input and send data to database
+<form action="/submit">
+  <input type="text" placeholder="write something" required> // required is optional
+  <button type="submit">submit</button>
+</form>  
