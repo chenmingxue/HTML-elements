@@ -1,1 +1,14 @@
+//CSS: Bootstrap will figure out how wide your screen is and respond by resizing your HTML elements... 
+//- hence the name Responsive Design. Especially for mobile design
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
+<div class="container-fluid">
+  <h2 class="class1 text-center">Title of content</h2>
+  <div class="row">
+    <div class="col-xs-4">   //in small screen size, full is 12, 4 is 1/3; other size has col-md-*
+  
+  <button class="btn">Like</button> //other class: btn-block:entire width in horizontal; btn-primary: popular style; ...
+//  btn-info:info style; btn-danger: red color filled
+
+
+</div>
