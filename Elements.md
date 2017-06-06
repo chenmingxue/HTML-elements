@@ -37,7 +37,9 @@ The often used elements
     border-style: solid;
     border-radius:10px;  // or try 50% 
   }
-  //link
+  #idName{
+  }
+//link
   <p>Here are <a href="#">cat photos<img src="" alt=""></a><p>
   //list: ul, ol
   <ul>
@@ -45,7 +47,7 @@ The often used elements
     <li></li>
     <li></li>
   </ul>
-  // input and send data to database
+// input and send data to database
 <form action="/submit">
   <input type="text" placeholder="write something" required> // required is optional
   <button type="submit">submit</button>
@@ -53,4 +55,23 @@ The often used elements
 //radio,checkbox button
   <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
   <label><input type="checkbox" name="personality"> some</label>
+//padding, margin
+//An element's padding controls the amount of space between the element and its border.
+//An element's margin controls the amount of space between an element's border and surrounding elements.
+.red-box {
+    background-color: red;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: black;  // or #000000 or #000 or rgb(0, 0, 0)
+    border-width: 5px;
+    text-align: center;
+    color: pink!important;
+  }
 
